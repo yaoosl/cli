@@ -1,0 +1,6 @@
+[submodule "runtime"]
+	path = extern/yaoosl_runtime
+	url = https://github.com/yaoosl/runtime.git
+[submodule "compiler"]
+	path = extern/yaoosl_compiler
+	url = https://github.com/yaoosl/compiler.git
