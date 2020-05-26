@@ -1,10 +1,10 @@
 #include "entry.h"
 #include "git_sha1.h"
 
-#include <yaoosl.h>
+#include <yaoosl/runtime/yaoosl.h>
+#include <yaoosl/runtime/yaoosl_code.h>
+#include <yaoosl/runtime/yaoosl_util.h>
 #include <tclap/CmdLine.h>
-#include <yaoosl_code.h>
-#include <yaoosl_util.h>
 #include <vector>
 #include <string>
 #include <iostream>

@@ -41,6 +41,10 @@ option(YS_BUILD_CLI "BUILD CLI" ON)
 
 
 if (YS_BUILD_CLI)
+    add_compile_definitions(YAOOSL_CLI)
+    add_compile_definitions(YAOOSL_COMPILER)
+    add_compile_definitions(YAOOSL_RUNTIME)
+    
     add_subdirectory(extern/yaoosl_runtime)
     add_subdirectory(extern/yaoosl_compiler)
     add_executable(ys_cli ${ys_cli_src})
