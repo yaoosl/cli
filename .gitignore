@@ -309,7 +309,7 @@ $RECYCLE.BIN/
 **/CMakeCache.txt
 **/CMakeFiles/
 **/CMakeScripts/
-*/cmake_install.cmake
+cmake_install.cmake
 
 # Visual Studio
 *.sln
